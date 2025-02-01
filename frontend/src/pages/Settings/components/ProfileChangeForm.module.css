@@ -1,0 +1,23 @@
+.background {
+  width: 100%;
+  max-height: 172.23px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 16px;
+  border-radius: var(--radius);
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.bioCount {
+  text-align: right;
+  font-size: 12px;
+}
+
+.saveButton {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}

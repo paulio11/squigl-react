@@ -1,0 +1,67 @@
+.replyCard {
+  border: var(--width) solid var(--color2);
+  margin-bottom: 16px;
+}
+
+.replyCardBody {
+  padding: 12px !important;
+}
+
+.avatarCol {
+  padding-right: 0;
+}
+
+.bodyCol {
+  padding-right: 0;
+}
+
+.header {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.header i {
+  size: 16px;
+  cursor: pointer;
+}
+
+.header i:hover {
+  color: var(--color5);
+}
+
+.header div a {
+  font-weight: normal;
+}
+
+.image {
+  width: 50%;
+}
+
+.body {
+  white-space: pre-line;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 12px;
+  background-color: var(--color2);
+  color: white;
+  border: none;
+}
+
+.footer i {
+  font-size: initial;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.image {
+  width: 100%;
+  border-radius: var(--radius);
+}

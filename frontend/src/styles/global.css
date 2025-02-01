@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+:root {
+  --color1: #0d4028;
+  --color2: #222612;
+  --color3: #707358;
+  --color4-rgb: 217, 215, 193;
+  --color4: #d9d7c1;
+  --color5: #f26c29;
+  --grey: rgb(165, 164, 164);
+  --radius: 5px;
+  --width: 1px;
+}
+
+/* For scrollbar */
+
+html {
+  overflow-y: scroll;
+}
+
+/* Links, Iconcs and Text */
+
+h1,
+h4 {
+  font-family: "Fredoka One", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--color2) !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--color4) !important;
+}
+
+.hashtag {
+  font-weight: bold;
+  color: var(--color1) !important;
+  text-decoration: none;
+}
+
+.usertag {
+  font-weight: bold;
+  color: var(--color5) !important;
+  text-decoration: none;
+}
+
+.profileLink {
+  text-decoration: none;
+  font-weight: initial;
+  color: initial !important;
+}
+
+.verified {
+  color: var(--color5);
+  margin-left: 10px;
+}
+
+/* Buttons and Forms */
+
+.themedButton {
+  background-color: var(--color1) !important;
+  border-color: var(--color1) !important;
+  font-size: 12px;
+}
+
+.themedButton:hover {
+  background-color: var(--color3) !important;
+  border-color: var(--color3) !important;
+  color: var(--color4) !important;
+}
+
+.deleteButton {
+  background-color: #8f0000 !important;
+  border-color: #8f0000 !important;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #b00000 !important;
+  border-color: #b00000 !important;
+  color: white !important;
+}
+
+textarea,
+input {
+  border: var(--width) solid var(--color2) !important;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0.25rem rgba(var(--color4-rgb), 0.8) !important;
+}
+
+/* Alerts */
+
+.alert {
+  font-size: 12px;
+}

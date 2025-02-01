@@ -1,0 +1,15 @@
+#frontend
+frontend/node_modules/
+
+#backend
+backend/venv/
+backend/media/avatars/*
+backend/media/post-images/*
+!backend/media/avatars/default_avatar.jpg
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db

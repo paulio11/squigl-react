@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.userDetails {
+  position: absolute;
+  left: 25px;
+  z-index: 0;
+  height: 100%;
+  width: calc(100% - 25px);
+  padding: 5px 5px 5px 40px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: var(--color4);
+  cursor: pointer;
+}
+
+.userDetails:hover {
+  background-color: var(--color3);
+  color: var(--color4);
+}
+
+.username {
+  font-size: 12px;
+}
+
+.displayname {
+  font-weight: bold;
+  font-size: 14px;
+}

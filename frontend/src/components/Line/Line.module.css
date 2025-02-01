@@ -1,0 +1,30 @@
+.line {
+  height: 4px;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.one {
+  background-color: var(--color1);
+  width: 20%;
+}
+
+.two {
+  background-color: var(--color2);
+  width: 20%;
+}
+
+.three {
+  background-color: var(--color3);
+  width: 20%;
+}
+
+.four {
+  background-color: var(--color4);
+  width: 20%;
+}
+
+.five {
+  background-color: var(--color5);
+  width: 20%;
+}

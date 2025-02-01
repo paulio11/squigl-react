@@ -1,0 +1,31 @@
+.navLink {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black !important;
+}
+
+.pill:hover {
+  background-color: var(--color3);
+  /* color: black !important; */
+}
+
+.activePill {
+  background-color: var(--color1);
+  color: white !important;
+}
+
+.navIcon {
+  width: 25px;
+  text-align: center;
+}
+
+.navBadge {
+  background-color: var(--color5) !important;
+}
+
+.navBadgeActive {
+  background-color: var(--color4) !important;
+  color: black;
+}

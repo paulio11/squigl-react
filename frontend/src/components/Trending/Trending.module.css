@@ -1,0 +1,58 @@
+.tagContainer {
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tagContainer:hover .tagText {
+  background-color: var(--color3);
+}
+
+.tagContainer:hover .tagSymbol {
+  color: var(--color5);
+}
+
+.tagSymbol {
+  font-size: 26px;
+  color: var(--color4);
+  background-color: var(--color1);
+  padding: 0 12px;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  font-weight: lighter;
+}
+
+.tagText {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 12px;
+  border-top: 1px solid var(--color1);
+  border-bottom: 1px solid var(--color1);
+  border-right: 1px solid var(--color1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  overflow-x: hidden;
+}
+
+.tagText:hover {
+  background-color: var(--color3);
+}
+
+.tag {
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.count {
+  width: 60px;
+  text-align: right;
+}

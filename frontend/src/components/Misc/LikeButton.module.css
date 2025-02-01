@@ -1,0 +1,11 @@
+.likedHeart {
+  color: hotpink;
+}
+
+.likeHeart {
+  cursor: pointer;
+}
+
+.likeHeart:hover {
+  color: hotpink;
+}

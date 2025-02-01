@@ -1,0 +1,43 @@
+.userCard {
+  position: relative;
+  margin-bottom: 30px;
+  border-color: var(--color2);
+  border-width: var(--width);
+}
+
+.background {
+  height: 200px;
+  width: 100%;
+  background-color: var(--color2);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.username {
+  font-size: 16px;
+}
+
+.bio {
+  font-size: 14px;
+}
+
+.userButtons {
+  height: 75px;
+  text-align: right;
+  padding: 16px;
+}
+
+.userButtons button:last-of-type {
+  margin-left: 16px;
+}
+
+.footer {
+  background-color: var(--color2);
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  border-top: none;
+}

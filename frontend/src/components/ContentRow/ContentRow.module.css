@@ -1,0 +1,13 @@
+.mainRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middleCol {
+  background: linear-gradient(180deg, var(--color3) 0%, #ffffff 100%);
+  padding-top: 12px;
+  padding-bottom: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 100%;
+}

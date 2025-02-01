@@ -1,0 +1,54 @@
+.message {
+  background-color: white;
+  padding: 16px;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  border: 1px solid black;
+}
+
+.header {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.footer {
+  background-color: var(--color2);
+  color: white;
+  font-size: 12px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer div div:last-of-type {
+  margin-left: 16px;
+}
+
+.footer i {
+  font-size: initial;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  color: var(--color5);
+}
+
+.container {
+  margin-bottom: 16px;
+}
+
+.messageText {
+  white-space: pre-line;
+}

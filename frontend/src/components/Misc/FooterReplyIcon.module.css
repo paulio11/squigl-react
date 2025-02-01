@@ -1,0 +1,9 @@
+.commentLink {
+  text-decoration: none;
+  color: inherit !important;
+  font-weight: inherit;
+}
+
+.repliedTo {
+  color: var(--color5);
+}

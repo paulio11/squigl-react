@@ -1,0 +1,16 @@
+.logoSquigl {
+  color: var(--color1);
+}
+
+.logoi {
+  color: var(--color5);
+}
+
+.link {
+  text-decoration: none;
+  color: initial !important;
+}
+
+.link:hover {
+  color: initial !important;
+}

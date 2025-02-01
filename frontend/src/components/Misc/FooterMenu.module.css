@@ -1,0 +1,45 @@
+.footerMenu {
+  position: relative;
+}
+
+.menuToggle {
+  cursor: pointer;
+}
+
+.menuContainer {
+  z-index: 1;
+  position: absolute;
+  bottom: 28px;
+  left: -40px;
+  background-color: white;
+  color: black;
+  border: var(--width) var(--color1) solid;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  width: 117px;
+  gap: 0 !important;
+}
+
+.menuContainer a {
+  height: fit-content;
+  width: 100%;
+  padding: 8px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--grey);
+  cursor: pointer;
+}
+
+.menuContainer a:last-of-type {
+  border-bottom: none;
+}
+
+.menuContainer a:hover {
+  background-color: var(--color3);
+}
+
+.menuContainer a i {
+  text-align: left;
+  width: 25px;
+}

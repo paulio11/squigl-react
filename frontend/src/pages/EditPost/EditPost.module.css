@@ -1,0 +1,16 @@
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.buttonRow div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: var(--radius);
+}

@@ -1,0 +1,11 @@
+.mainDiv {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  gap: 10px;
+}
+
+.mainDiv a {
+  text-decoration: none;
+  color: initial !important;
+}

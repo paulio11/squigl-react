@@ -1,0 +1,37 @@
+.customTabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* Style the tab links */
+.customTab {
+  background-color: white;
+  color: var(--color2) !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.customTab:hover {
+  background-color: var(--color4) !important;
+  color: var(--color2) !important;
+}
+
+.customTabs :where(.customTab[aria-selected="true"]) {
+  background-color: var(--color1) !important;
+  color: white !important;
+}
+
+.badge {
+  background-color: var(--color5) !important;
+}
+
+.sendButton {
+  font-size: initial;
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
