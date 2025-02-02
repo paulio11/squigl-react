@@ -21,7 +21,11 @@ const SearchBar = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    nav(`/s/${searchQuery}`);
+    if (!searchQuery) {
+      return;
+    } else {
+      nav(`/s/${searchQuery}`);
+    }
   };
 
   return (
