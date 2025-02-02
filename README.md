@@ -26,6 +26,14 @@ On top of everything in [Banana](https://github.com/paulio11/banana), Squigl v2 
 - Post and user searching
 - User profile customisation
 
+### Upcoming Features
+
+To make v2 have feature parity with v1 I still need to add the following:
+
+- Post reporting
+- Moderation dashboard
+- Optimised views for mobile and tablet
+
 ## Deployment
 
 Instructions are for macOS.
