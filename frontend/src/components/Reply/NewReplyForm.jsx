@@ -8,7 +8,7 @@ import styles from "./NewReplyForm.module.css";
 import { backendAPI } from "../../api/axiosConfig";
 
 const NewReplyForm = (props) => {
-  const { post, setReplies } = props;
+  const { post, setReplies, setPost } = props;
   const [showForm, setShowForm] = useState(false);
   const [errors, setErrors] = useState([]);
   const [uploading, setUploading] = useState(false);
@@ -63,6 +63,11 @@ const NewReplyForm = (props) => {
       if (status === 201) {
         setReplies((prevReplies) => [data, ...prevReplies]);
         setReplyData({ body: "", image: "" });
+        setPost((prevPost) => ({
+          ...prevPost,
+          reply_count: prevPost.reply_count + 1,
+          user_has_replied_to: true,
+        }));
         setShowForm(false);
       }
     } catch (error) {

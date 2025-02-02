@@ -58,7 +58,7 @@ const SinglePost = () => {
     <>
       <Post {...post} />
       {user ? (
-        <NewReplyForm post={id} setReplies={setReplies} />
+        <NewReplyForm post={id} setReplies={setReplies} setPost={setPost} />
       ) : (
         <Alert variant="light">
           <Link to={"/login"}>Login</Link> if to like this post or leave a
