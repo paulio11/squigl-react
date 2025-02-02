@@ -95,7 +95,11 @@ const EditPost = () => {
     try {
       const { status } = await backendAPI.patch(`/posts/${id}`, formData);
       if (status === 200) {
-        nav(`/p/${id}`);
+        if (parent_post_id) {
+          nav(`/p/${parent_post_id}`);
+        } else {
+          nav(`/p/${id}`);
+        }
       }
     } catch (error) {
       setErrors(error.response.data);
@@ -117,7 +121,11 @@ const EditPost = () => {
     try {
       const { status } = await backendAPI.delete(`/posts/${id}`);
       if (status === 204) {
-        nav("/feed");
+        if (parent_post_id) {
+          nav(`/p/${parent_post_id}`);
+        } else {
+          nav("/feed");
+        }
       }
     } catch (error) {
       setErrors(error.response.data);
