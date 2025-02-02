@@ -148,10 +148,11 @@ const ProfileChangeForm = () => {
             onChange={(e) => handleFileChange(e, "background")}
             className={styles.hiddenInput}
           />
-          {background && (
+          {(newProfileData?.background || background) && (
             <img
-              src={newProfileData.background || background}
+              src={newProfileData?.background || background}
               className={styles.background}
+              alt="Background"
             />
           )}
           <Button
